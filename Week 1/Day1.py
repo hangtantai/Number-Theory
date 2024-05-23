@@ -1,7 +1,14 @@
-# # Exercise 1:
+# Exercise 1:
+
+"""
+THIS LAB ABOUT:
+- convert base of integer: 10(decimal), 2(binary), 16(hexa) with different methods like nested loop, recursive 
+- using string -> inverse string
+- operation of binary number: add, minus, multiply
+"""
 
 
-# # using loop
+# using loop
 def convert_base(num, original_base, base_convert):
     value = 0
     ctr = 0
@@ -49,10 +56,10 @@ print(f"Convert base 3: {number}")
 
 
 
-# thuật toán tìm ước chung lớn nhât
-# sử dụng đệ quy
+# Algorithm to find greatest common divisor
+# using recursive
 
-Asume that a is greater than b
+# Asume that a is greater than b
 def euclid(a,b):
     if b == 0:
         return a
@@ -65,7 +72,14 @@ def euclid(a,b):
 a = euclid(5,4)
 print(f"Euclid: {a}")
 
-# Exercise 2
+# Exercise 2:
+"""
+THIS EXERCISE ABOUT:
+- add 2 binary number
+- minus 2 binary number
+- multiply 2 binary number
+"""
+
 
 def add(a,b):
     # define max_len
@@ -128,7 +142,7 @@ def minus(a,b):
 
 
 
-# # multiply
+# multiply
 def multiply(a,b):
     # create list to store 
     list_store = []
