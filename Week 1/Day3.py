@@ -1,6 +1,15 @@
 from sympy import  factorint
 import math
 
+"""
+THIS LAB: OOP for prime number: using OOP
+- check integer number
+- check positive number
+- factorize number using sympy
+- pseudoprime
+- Carmichael number
+"""
+
 class NumberTheory:
     def __init__(self, number):
         self.number = self.check_positive(number)
