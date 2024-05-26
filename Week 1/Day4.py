@@ -1,3 +1,11 @@
+"""
+THIS LAB: Algorithm for check prime
+- Rabin Miller
+- Trial Division
+- Soloway Strassen
+"""
+
+
 import math
 import random
 import timeit
