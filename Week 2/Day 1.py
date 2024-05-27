@@ -1,3 +1,12 @@
+"""
+THIS LAB: SOME ALGORITHM TO FIND PRIME FACTOR OF INTEGER
+- Trial Division
+- Pollard Rho
+- Pollard Rho Minus 1
+- Menu: - time execution - compare 3 algorithm
+"""
+
+
 # import library necessary
 import math
 import timeit
