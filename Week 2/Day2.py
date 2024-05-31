@@ -1,3 +1,11 @@
+"""
+THIS LAB: ABOUT SOME COMMON CIPHER IN NUMBER THEORY
+- CAESAR CIPHER
+- AFFINE CIPHER
+- EXPONENTIAL CIPHER
+"""
+
+
 # import necessary libraries
 import math
 
